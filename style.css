@@ -1,0 +1,43 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+input {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 40px;
+	margin-left: -50px;
+	margin-top: -20px;
+	border-radius: 10px;
+}
+#mask {
+	background-color: black;
+	opacity: 0.3;
+	filter: alpha(opacity = 30);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#box {
+	background-color: white;
+	border: 5px solid black;
+	position: absolute;
+	display: none;
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+}
+#close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	text-decoration: none;
+	color: black;
+}
+#close:hover {
+	background-color: #333;
+	color: white;
+}
